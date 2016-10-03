@@ -1,0 +1,23 @@
+{
+    "buttonIconCls": "data_logger-icon",
+   "buttonLabelToken": "data_logger.pluginTitle",
+    "buttonTooltipToken": "data_logger.pluginTitle",
+    "orderWeight": 2,
+    "permission": "",
+    "resources": {
+       "*": {
+           "js": [
+               "/packages/local/data_logger/data_logger.js"
+           ],
+		   "css": [
+               "/packages/local/data_logger/resources/css/data_logger.css"
+           ]
+       },
+       "en": {
+           "json": [
+               "/packages/local/data_logger/resources/json/locales/en.json"
+           ]
+       }
+    },
+    "routeToken": "data_logger"
+}
